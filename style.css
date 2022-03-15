@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2? família=Indie+Flower&family=Sora:wght@400;500&display=swap");
+
+/* resete css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* embrulho */
+
+.wrapper {
+    /* max-width: 1940px; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* flex para separar itens */
+
+.flex {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 0px 25px;
+    background: rgba(29, 29, 29, 0.5);
+    background: blur(2px);
+}
+
+#cabeçalho-menu>div {
+    padding: 22px 10%;
+}
+
+#menu>a {
+    text-transform: uppercase;
+    color: #F9F9F9;
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
+    text-decoration: none;
+}
+
+.link {
+    margin-left: 58px;
+}
+
+
+/* tela de fundo do miranah */
+
+#fundo {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/spider-man-miles-morales-4k-2020-ix-1920x1080\ 1.png);
+}
+
+#aranha {
+    margin-left: 180px;
+}
+
+
+/* coteudo do meio */
+
+#conteudo {
+    margin-top: 130px;
+    justify-content: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.subtitulo {
+    margin-top: -38px;
+}
+
+#titulo {
+    width: 32%;
+}
+
+#botao {
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: aqua;
+    padding: 23px 40px;
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+    clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0 100%, 0 15%);
+    background: #1D1D1D;
+    color: #F9F9F9;
+    border: solid;
+    border-color: #EC111A;
+}
+
+#botao>i {
+    padding: 0px 25px;
+}
+
+#sessao-lado {
+    width: 100px;
+    background: rgba(29, 29, 29, 0.5);
+}
+
+#barra {
+    margin-bottom: 400px;
+}
+
+#barra>a>i {
+    color: white;
+    margin: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+}
+
+#barra>a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+#caixa {
+    padding: 0px;
+}
+
+#img-pessoa {
+    margin: 0px 20px;
+    height: 60px;
+    border-radius: 50%;
+}
